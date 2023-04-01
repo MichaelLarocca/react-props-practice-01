@@ -37,6 +37,7 @@ main img {
 #hero {
     width: 400px;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .cards-list {
