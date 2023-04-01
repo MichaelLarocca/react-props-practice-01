@@ -1,6 +1,6 @@
-import TatooineImage from '../src/assets/img/Tatooine.jpeg';
-import HothImage from '../src/assets/img/Hoth.jpeg';
-import EndorImage from '../src/assets/img/Endor.jpeg';
+import TatooineImage from '../public/img/Tatooine.jpeg';
+import HothImage from '../public/img/Hoth.jpeg';
+import EndorImage from '../public/img/Endor.jpeg';
 
 export default [
     {
@@ -17,7 +17,7 @@ export default [
     },
     {
       name: 'Endor',
-      // description: 'The forest moon of Endor served as the site of the Battle of Endor, one of the final engagements of the Galactic Civil War.',
+      description: 'The forest moon of Endor served as the site of the Battle of Endor, one of the final engagements of the Galactic Civil War.',
       // image: 'https://lumiere-a.akamaihd.net/v1/images/databank_endor_01_169_68ba9bdc.jpeg?region=0%2C0%2C1560%2C878'
       image: EndorImage
     }

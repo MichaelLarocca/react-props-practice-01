@@ -8,10 +8,6 @@ import places from './data'
 import Card from './components/Card'
 import Hero from './components/Hero'
 
-// import Tatooine from './assets/img/Tatooine.jpeg';
-// import Hoth from './assets/img/Hoth.jpeg';
-// import Endor from './assets/img/Hoth.jpeg';   
-
 function App() {
 
       const cards = places.map(place => {
