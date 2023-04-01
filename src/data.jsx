@@ -1,7 +1,3 @@
-import Tatooine from '../src/img/Tatooine.jpeg'
-import Hoth from '../src/img/Hoth.jpeg'
-import Endor from '../src/img/Endor.jpeg'
-
 export default [
     {
       name: 'Tatooine',
