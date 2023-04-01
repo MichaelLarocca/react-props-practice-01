@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Main from './components/Main'
 import places from './data'
 import Card from './components/Card'
+import Hero from './components/Hero'
 
 function App() {
 
@@ -18,12 +19,16 @@ function App() {
         />
   })
 
-
   return (
-    <div className="App">
+    <div className="app">
       <Navbar />
-      <Main />
-      {cards}
+        <div class="ctn">
+        <Main />
+        <Hero />
+        <section className="cards-list">
+        {cards}
+        </section>
+      </div>
     </div>
   )
 }

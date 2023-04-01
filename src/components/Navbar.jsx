@@ -2,6 +2,8 @@ import React from "react";
 
 export default function Navbar() {
     return (
-        <nav>Navbar</nav>
+        <nav>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Star_wars2.svg/1920px-Star_wars2.svg.png" />    
+        </nav>
     )
 }
