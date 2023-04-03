@@ -1,74 +1,76 @@
 body {
-    font-family: 'Orbitron', sans-serif;
-    background-color: whitesmoke;
+	font-family: "Orbitron", sans-serif;
+	background-color: whitesmoke;
 }
 
 .color-yellow {
-    color: #FECB00;
-    text-shadow: 1px 1px 1px white, 2px 2px 1px black;
+	color: #fecb00;
+	text-shadow: 1px 1px 1px white, 2px 2px 1px black;
 }
 
 .ctn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 nav {
-    /* border: 1px solid red; */
-    height: 30px;
-    background-color: white;
+	/* border: 1px solid red; */
+	height: 30px;
+	background-color: white;
+	position: sticky;
+	top: 0;
+	z-index: 999;
 }
 
 nav img {
-    /* border: 1px solid red; */
-    width: 40px;   
-    margin-top: 5px;
-    margin-left: 25px;
+	/* border: 1px solid red; */
+	width: 40px;
+	margin-top: 5px;
+	margin-left: 25px;
 }
 
 main img {
-    /* border: 1px solid red; */
-    width: 400px;
-    margin-top: 25px;   
-    border-radius: 25px;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+	/* border: 1px solid red; */
+	width: 400px;
+	margin-top: 25px;
+	border-radius: 25px;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 #hero {
-    width: 400px;
-    font-weight: bold;
-    margin-bottom: 30px;
+	width: 400px;
+	font-weight: bold;
+	margin-bottom: 30px;
 }
 
 .cards-list {
-    /* border: 1px solid greenyellow; */
-    display: flex;
-    flex-direction: column;
-    gap:25px;
-    justify-content: space-around;
+	/* border: 1px solid greenyellow; */
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	justify-content: space-around;
 }
 
 .card img {
-    /* border: 1px solid red; */
-    width: 250px;
-    border-radius: 25px;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+	/* border: 1px solid red; */
+	width: 250px;
+	border-radius: 25px;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .card p {
-    /* border: 1px solid greenyellow; */
-    width: 250px;
+	/* border: 1px solid greenyellow; */
+	width: 250px;
 }
 
 @media (min-width: 800px) {
-
-    #hero {
-        width: 750px;
-    }
-    .cards-list {
-        /* border: 1px solid blue; */
-        flex-direction: row;
-        justify-content: center;
-    }
-  }
+	#hero {
+		width: 750px;
+	}
+	.cards-list {
+		/* border: 1px solid blue; */
+		flex-direction: row;
+		justify-content: center;
+	}
+}
